@@ -20,11 +20,26 @@ html, body {
   margin-left: auto;
   margin-right: auto;
   display: block;
-
-
-
-
 }
+
+.btn-danger {
+  background-color: $blood;
+  border-color: $blood;
+  color: $crypt;
+  font-family: gothfont;
+  font-size: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#search-box{
+  background-color: gray;
+  border-color: black;
+  color: black;
+}
+
+
 
 #map {
   height: 50%;
@@ -51,6 +66,13 @@ h2{
   font-size: 48px;
 }
 
+h4 {
+  text-align: center;
+  color: $blood;
+  font-family: gothfont;
+  font-size: 30px;
+  padding-top: 50px;
+}
 body {
   background-color: $crypt;
 }
@@ -60,8 +82,4 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 700px;
-}
-
-label{
-text-align: center;
 }
